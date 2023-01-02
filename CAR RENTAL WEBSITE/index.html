@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Best online Car Rental Service|CarRental.com</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="background_img">
+    <nav id="navbar">
+        <div id="logo">
+            <a href="CARRENTAL.html"><img src="CAR RENT.png" alt="CarRental.com"></a>
+        </div>
+
+        <ul>
+            <li class="item"><a href="index.html"><b>HOME</b></a></li>
+            <li class="item"><a href="signup.html"><b>SIGNUP</b></a></li>
+            <li class="item"><a href="htmlloginpage.html"><b>LOGIN</b></a></li>
+            <li class="item"><a href="#box1"><b>MANAGE BOOKING</b></a></li>
+            <li class="item"><a href="#box2"><b>POPULAR LOCATIONS</b></a></li>
+
+        </ul>
+    </nav>
+    <section>
+        <div class="mid">
+            <h1>CAR HIRE</h1><br>
+            <p1>Hire your favourite Cars today at a affordable price.<br> Book Now!</p1>
+        </div>
+    </section>
+    <section>
+        <div class="box1" id="box1">
+            <h2>Let's Find Your Ideal Car</h2>
+            <form action="#">
+                <select name="pickup" id="input" required>
+                    <option disabled selected value="">--Pick-Up Location--</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Jalandhar">Jalandhar</option>
+                    <option value="New Delhi">New Delhi</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Noida">Noida</option>
+                    <option value="J&K">J&K</option>
+                </select><br>
+                <input type="text" name="pdate" id="inputbox" placeholder="Pick-Up Date" onfocus="(this.type='date')"
+                    required><br>
+                <input type="text" name="ddate" id="inputbox" placeholder="Pick-Off Date" onfocus="(this.type='date')"
+                    required><br>
+                <input type="text" name="Name" id="inputbox" placeholder="Your Full Name" required><br>
+                <input type="email" id="inputbox" placeholder="Email Address" required><br>
+                <input type="number" id="inputbox" placeholder="Phone no." required><br>
+                <label for="type">Purpose of Rental:</label>
+                <input type="radio" id="radio" name="type" value="Buissness" required>
+                <label for="radio">Buissness</label>
+                <input type="radio" id="radio" name="type" value="Leisure">
+                <label for="radio">Leisure</label><br>
+                <input type="submit" name="submit" id="btn" value="Search">
+            </form>
+        </div>
+        <div class="box2" id="box2">
+            <h1>Our Popular Destinations</h1>
+            <div class="salt1"> <img src="Bangalore.jpg" alt="Bangalore">
+                <p>Bangalore is one of our most popular destinations. We provide a variety of Cars as per your interest.
+                </p>
+            </div>
+            <div class="salt2"> <img src="Delhi.webp" alt="Bangalore">
+                <p>Delhi is one of our most popular destinations. We provide a variety of Cars as per your interest.</p>
+            </div>
+            <div class="salt3"> <img src="Maharashtra.png" alt="Bangalore">
+                <p>Maharashtra is one of our most popular destinations. We provide a variety of Cars as per your interest.</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+</body>
+
+</html>

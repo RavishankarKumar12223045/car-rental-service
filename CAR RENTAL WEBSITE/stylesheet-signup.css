@@ -1,0 +1,71 @@
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+background-image: url(Car..f.jpeg);
+background-size: cover;
+background-position: center;
+}
+.signup{
+    width: 348px;
+    box-shadow: 0 0 3px 0 black;
+    background: rgb(255, 255, 255);
+    padding:3px;
+    margin: 6% auto;
+    text-align: center;
+    opacity: 0.7;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.signup h1{
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+.inputbox{
+    border-radius: 20px;
+    padding: 8px;
+    margin: 8px 0;
+    width: 50%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+.signup-btn{
+    color: #fff;
+    width: 100%;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 8px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.signup-btn{
+    color: black;
+    background-color: #9cbdc4;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.or{
+    background-color: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+img{
+    width: 62px;
+    margin-top: -40px;
+}
